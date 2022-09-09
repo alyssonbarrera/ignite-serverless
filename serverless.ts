@@ -56,7 +56,7 @@ const serverlessConfiguration: AWS = {
     }
   },
   package: {
-    individually: true,
+    individually: false,
     include: [
       "./src/templates/**",
     ]
